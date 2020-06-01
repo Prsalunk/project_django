@@ -17,5 +17,9 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+<<<<<<< HEAD
+=======
+    path('', include('travello.urls')),
+>>>>>>> 8b1f93c24fa26cedfb65de9edd0d6111667a2212
     path('admin/', admin.site.urls),
 ]
